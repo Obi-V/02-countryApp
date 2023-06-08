@@ -30,6 +30,31 @@ Las Pages son componentes que representan las diferentes páginas de la aplicaci
 
 Las Interfaces son estructuras que definen la forma de un objeto en TypeScript. Se utilizan para establecer la estructura y los tipos de datos esperados en ciertos contextos, como la respuesta de una API o los parámetros de una función.
 
+
+# Utilizamos por primera vez el Routing de angular
+
+## Routing en Angular
+
+El routing en Angular se refiere a la capacidad de navegar entre diferentes vistas y componentes en una aplicación web de una sola página (SPA). Permite definir rutas para cada vista y mapear esas rutas a componentes específicos.
+
+### Ventajas del Routing en Angular
+
+- **Navegación sin recarga de página**: El enrutamiento en Angular permite cambiar entre diferentes vistas y componentes sin tener que recargar la página completa. Esto mejora la experiencia del usuario al brindar una transición fluida y rápida entre las páginas de la aplicación.
+
+- **Gestión de URL**: El enrutamiento en Angular maneja la actualización de la URL del navegador a medida que se navega por la aplicación. Esto permite a los usuarios compartir enlaces directos a páginas específicas y utilizar la funcionalidad de retroceso y avance del navegador de manera adecuada.
+
+- **Separación de responsabilidades**: El enrutamiento permite dividir la lógica y los componentes de la aplicación en diferentes vistas. Cada vista puede tener su propio componente asociado, lo que facilita la gestión y el mantenimiento del código.
+
+- **Rutas anidadas**: El enrutamiento en Angular admite rutas anidadas, lo que significa que puedes tener rutas dentro de otras rutas. Esto permite una estructura de navegación jerárquica y modular, donde las vistas pueden ser componentes independientes y reutilizables.
+
+- **Rutas protegidas**: El enrutamiento en Angular también permite la protección de rutas, lo que significa que puedes restringir el acceso a ciertas vistas o componentes basados en la autenticación o permisos del usuario. Esto es útil para implementar la seguridad en la aplicación.
+
+- **Lazy Loading**: Angular proporciona la capacidad de cargar módulos y rutas de forma diferida (lazy loading). Esto significa que los componentes y módulos se cargan bajo demanda, lo que mejora el rendimiento y la eficiencia de la aplicación al evitar la carga innecesaria de recursos al principio.
+
+En resumen, el routing en Angular es una característica fundamental para la construcción de aplicaciones web de una sola página. Permite la navegación entre diferentes vistas y componentes sin recargar la página, gestionando las URL y proporcionando ventajas como la separación de responsabilidades, rutas anidadas, rutas protegidas y lazy loading.
+
+
+
 ## Instalación
 
 1. Clona el repositorio: `git clone https://github.com/tu-url-repo.git`
